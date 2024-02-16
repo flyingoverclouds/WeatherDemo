@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  meteofrontend:
+    image: ${DOCKER_REGISTRY-}meteofrontend
+    build:
+      context: .
+      dockerfile: MeteoFrontend/Dockerfile
+
+  meteoapi:
+    image: ${DOCKER_REGISTRY-}meteoapi
+    build:
+      context: .
+      dockerfile: MeteoApi/Dockerfile
+

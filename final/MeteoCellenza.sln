@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeteoFrontend", "MeteoFrontend\MeteoFrontend.csproj", "{6CBFB330-E2E9-4D36-8403-C383D71B2E93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeteoApi", "MeteoApi\MeteoApi.csproj", "{E8FE6916-7B00-4102-88F0-8D413DB5536A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E5BEBC96-65FB-4675-8BD3-27DEEE08DF71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CBFB330-E2E9-4D36-8403-C383D71B2E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBFB330-E2E9-4D36-8403-C383D71B2E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBFB330-E2E9-4D36-8403-C383D71B2E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBFB330-E2E9-4D36-8403-C383D71B2E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FE6916-7B00-4102-88F0-8D413DB5536A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FE6916-7B00-4102-88F0-8D413DB5536A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FE6916-7B00-4102-88F0-8D413DB5536A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FE6916-7B00-4102-88F0-8D413DB5536A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5BEBC96-65FB-4675-8BD3-27DEEE08DF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5BEBC96-65FB-4675-8BD3-27DEEE08DF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5BEBC96-65FB-4675-8BD3-27DEEE08DF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5BEBC96-65FB-4675-8BD3-27DEEE08DF71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C374E7F-57CC-4139-8935-00071F586510}
+	EndGlobalSection
+EndGlobal
